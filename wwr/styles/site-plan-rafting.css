@@ -21,10 +21,10 @@ Fonts are separated by a & */
   --headline-color-on-color: var(--secondary-color); /* headlines on a colored background */ 
   --paragraph-color-on-white: var(--secondary-color); /* paragraph text on a white background */ 
   --paragraph-color-on-color: var(--primary-color); /* paragraph text on a colored background */ 
-  --paragraph-background-color: var(--accent1-color);
+  --paragraph-background-color: var(--accent2-color);
   --nav-link-color: var(--primary-color);
   --nav-background-color: var(--accent2-color);
-  --nav-hover-link-color: var(--secondary-color);
+  --nav-hover-link-color: white;
   --nav-hover-background-color: var(--accent1-color);
 }
 
