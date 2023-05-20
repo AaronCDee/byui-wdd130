@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -22,8 +24,11 @@ section{
 body{
     background-color: #fcfbfb;
     padding: 0;
-    margin:0;
+    margin: 0;
+    font-family:  'Roboto', monospace, sans-serif;
+    font-size: 22px;
 }
+
 header{
     background-color: #170312;
 }
@@ -35,11 +40,19 @@ nav a:hover{
     background-color: #170312;
     color: #03ABB9;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .join{
-    background-color: #170312;
-    color: #03ABB9;
+    background-color: #FAC05E;
+    color: #170312;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #023C40;
@@ -51,10 +64,15 @@ nav a:hover{
 }
 .msg{
     background-color: #170312;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #170312;
     color: #03ABB9;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 nav a{
@@ -64,6 +82,9 @@ nav a{
 
 .home-title{
     color: #03ABB9;
+    font-family:  'Roboto', monospace, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -72,10 +93,13 @@ h4{
 
 .msg h2{
     color: #03ABB9;
+    font-family:  'Roboto', monospace, sans-serif;
 }
 
 .msg p{
     color: #03ABB9;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
@@ -88,6 +112,7 @@ footer a:hover{
 
 h2{
     color: #03ABB9;
+    margin: 0;
 }
 
 .logo{
@@ -95,6 +120,7 @@ h2{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -107,4 +133,45 @@ footer p {
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
+    padding: 35px;
+}
+
+.social{
+    padding-top: 15px;
+}
+
+img{
+    /* padding-top: 15px;  This messes up the borders on the imgs why is it here?  */
+    box-sizing: border-box;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #023C40;
+}
+
+main{
+    box-sizing: border-box;
+}
+
+section{
+    box-sizing: border-box;
 }
