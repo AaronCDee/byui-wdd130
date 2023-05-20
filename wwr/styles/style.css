@@ -148,7 +148,7 @@ nav a{
 }
 
 img{
-    /* padding-top: 15px;  This messes up the borders on the imgs why is it here?  */
+    /* padding-top: 15px; This messes up the borders on the imgs why is it here? Added to mountains instead */
     box-sizing: border-box;
 }
 
@@ -174,4 +174,8 @@ main{
 
 section{
     box-sizing: border-box;
+}
+
+.mountains{
+    padding-top: 15px;
 }
