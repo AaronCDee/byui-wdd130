@@ -78,6 +78,7 @@ footer{
 nav a{
     color: #03ABB9;
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title{
@@ -137,10 +138,6 @@ footer p a:hover{
 
 #logo_link{
     padding-top: 5px;
-}
-
-nav a{
-    padding: 35px;
 }
 
 .social{
