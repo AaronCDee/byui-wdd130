@@ -243,6 +243,69 @@ section{
     width: 100%;
 }
 
+/* Rivers Style: Uses home grid */
+.main-padding{
+    padding: 30px;
+}
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.header-align{
+    grid-row: 1/2;
+    grid-column: 1/11;
+}
+
+.main-fork-pos{
+    grid-row: 3/7;
+    grid-column: 1/11;
+    width: 100%;
+}
+
+.desolation-gray-pos{
+    grid-row: 8/12;
+    grid-column: 1/11;
+    width: 100%;
+}
+
+.grand-canyon-pos{
+    grid-row: 13/17;
+    grid-column: 1/11;
+    width: 100%;
+}
+
+.left-text-pos{
+    grid-column: 1/7;
+    grid-row: 1/11;
+}
+
+.right-text-pos{
+    grid-column: 5/11;
+    grid-row: 1/11;
+}
+
+.left-img-pos{
+    grid-column: 1/4;
+    grid-row: 4/8;
+    width: 100%;
+}
+
+.right-img-pos{
+    grid-column: 8/11;
+    grid-row: 4/8;
+    width: 100%;
+}
+
+.border-img{
+    border: 10px solid #023C40;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -282,5 +345,11 @@ section{
     }
     footer {
         margin-top: 25px;
+    }
+    .text-left{
+        text-align: center;
+    }
+    .text-right{
+        text-align: center;
     }
 }
