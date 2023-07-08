@@ -6,6 +6,7 @@
     --secondary-color: #BDD2A6;
     --accent1-color: #B9BEA5;
     --accent2-color: #C5E6A6;
+    --blackish: #20252A;
   
     /* change the values below to your chosen font(s) */
     --heading-font: 'Roboto', sans-serif;
@@ -51,6 +52,14 @@ body{
     font-size: 300%;
 }
 
+.hero-header-dark{
+    grid-row: 4/7;
+    grid-column: 1/11;
+    text-align: center;
+    color: var(--blackish);
+    font-size: 300%;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -75,7 +84,7 @@ nav{
 nav a{
     text-decoration: none;
     padding: 2em;
-    color: black;
+    color: var(--blackish);
     font-size: large;
 }
 
@@ -91,7 +100,19 @@ nav a:hover{
     padding: 15px;
     font-size: 16px;
     background-color: var(--secondary-color);
-    color: black;
+    color: var(--blackish);
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+.content-grid-components{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(8, 1fr);
+    padding: 15px;
+    font-size: 16px;
+    background-color: var(--secondary-color);
+    color: var(--blackish);
     margin: 15px auto;
     border-radius: 15px;
 }
@@ -133,7 +154,7 @@ figcaption {
 footer {
     display: flex;
     background-color: var(--accent1-color);
-    color: black;
+    color: var(--blackish);
     justify-content: space-evenly;
     padding: 15px;
     align-items: center;
@@ -141,7 +162,7 @@ footer {
 }
 
 footer a{
-    color: black;
+    color: var(--blackish);
 }
 
 footer a:hover {
@@ -150,6 +171,10 @@ footer a:hover {
 
 .social a{
     text-decoration: none;
+}
+
+.p-width-components{
+    width: 98%;
 }
 
 @media screen and (max-width: 480px) {

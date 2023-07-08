@@ -10,7 +10,7 @@
 <body>
     <header>
         <a href="./index.html" id="logo-link">
-            <img src="./assets/img/pc-noob-logo.png" alt="pc noob logo">
+            <img class="header-img" src="./assets/img/pc-noob-logo.png" alt="pc noob logo">
         </a>
         <nav>
             <a href="./index.html">Home</a>
@@ -18,69 +18,82 @@
             <a href="./brands.html">Brands</a>
         </nav>
     </header>
-    <main>
-        <div id="hero">
-            <img id="hero-img" src="./assets/img/component-hero.jpg" alt="lego-blocks">
-            <h1>Component breakdown</h1>
+    <main class="home-container">
+        <div id="hero" class="hero-container">
+            <img id="hero-img" class="hero-img" src="./assets/img/component-hero.jpg" alt="lego-blocks">
+            <h1 class="hero-header-dark">Component breakdown</h1>
         </div>
-        <div id="content">
-            <p>
+        <div id="content" class="content-grid-components">
+            <p class="row-p top-row">
                 A desktop PC consists of several key components that work together to provide computing power and functionality. These components can be broadly categorized into the central processing unit (CPU), memory, storage, motherboard, graphics processing unit (GPU), power supply unit (PSU), and peripherals.
             </p>
-
-            <div>
-                <h3>Central Processing Unit (CPU)</h3>
-                <p>
-                    The CPU serves as the brain of the computer, executing all the programs that we all use on a daily basis. The CPU's performance is measured by its clock speed and the number of cores it has.
-                </p>
+            <div id="instructions" class="instructions-container">
+                <div>
+                    <h3>Central Processing Unit (CPU)</h3>
+                    <p class="p-width-components">
+                        The CPU serves as the brain of the computer, executing all the programs that we all use on a daily basis. The CPU's performance is measured by its clock speed and the number of cores it has.
+                    </p>
+                </div>
+                <div>
+                    <h3>Random Access Memory (RAM)</h3>
+                    <p class="p-width-components">
+                        Memory, or RAM (Random Access Memory), temporarily stores data that the CPU needs to access quickly. It allows for faster data retrieval compared to storage devices. The more RAM a computer has, the more applications and data it can handle concurrently.
+                    </p>
+                </div>
+                <div>
+                    <h3>Storage</h3>
+                    <p class="p-width-components">
+                        Storage devices store data such as files. Hard Disk Drives (HDDs) provide high-capacity storage at a lower cost, while Solid-State Drives (SSDs) offer faster data access and retrieval speeds.
+                    </p>
+                </div>
+                <div>
+                    <h3>Motherboard</h3>
+                    <p class="p-width-components">
+                        The motherboard acts as the central hub, connecting all the components. It houses the CPU, RAM slots, storage connectors, expansion slots, and other peripheral connectors.
+                    </p>
+                </div>
+                <div>
+                    <h3>Graphics Processing Unit (GPU)</h3>
+                    <p class="p-width-components">
+                        The GPU is responsible for rendering and displaying images, videos, and graphics. It offloads visual processing tasks from the CPU, enhancing performance in gaming and multimedia applications.
+                    </p>
+                </div>
+                <div>
+                    <h3>Power Supply Unit (PSU)</h3>
+                    <p class="p-width-components">
+                        The PSU supplies power to all components, converting electrical energy from the wall outlet into usable power for the computer.
+                    </p>
+                </div>
+                <div>
+                    <h3>Peripherals</h3>
+                    <p class="p-width-components">
+                        Peripherals such as the keyboard, mouse, monitor, speakers, and printers are connected to the desktop PC through ports or wireless connections, enabling input and output functionality.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>Random Access Memory (RAM)</h3>
-                <p>
-                    Memory, or RAM (Random Access Memory), temporarily stores data that the CPU needs to access quickly. It allows for faster data retrieval compared to storage devices. The more RAM a computer has, the more applications and data it can handle concurrently.
-                </p>
-            </div>
-            <div>
-                <h3>Storage</h3>
-                <p>
-                    Storage devices store data such as files. Hard Disk Drives (HDDs) provide high-capacity storage at a lower cost, while Solid-State Drives (SSDs) offer faster data access and retrieval speeds.
-                </p>
-            </div>
-            <div>
-                <h3>Motherboard</h3>
-                <p>
-                    The motherboard acts as the central hub, connecting all the components. It houses the CPU, RAM slots, storage connectors, expansion slots, and other peripheral connectors.
-                </p>
-            </div>
-            <div>
-                <h3>Graphics Processing Unit (GPU)</h3>
-                <p>
-                    The GPU is responsible for rendering and displaying images, videos, and graphics. It offloads visual processing tasks from the CPU, enhancing performance in gaming and multimedia applications.
-                </p>
-            </div>
-            <div>
-                <h3>Power Supply Unit (PSU)</h3>
-                <p>
-                    The PSU supplies power to all components, converting electrical energy from the wall outlet into usable power for the computer.
-                </p>
-            </div>
-            <div>
-                <h3>Peripherals</h3>
-                <p>
-                    Peripherals such as the keyboard, mouse, monitor, speakers, and printers are connected to the desktop PC through ports or wireless connections, enabling input and output functionality.
-                </p>
-            </div>
-            <p>
+            <p class="row-p">
                 These components collectively enable a desktop PC to perform various tasks, from everyday computing to gaming, content creation, and more. The performance and capabilities of each component can be tailored to suit specific needs and preferences.
             </p>
-
-            <img src="./assets/img/motherboard.jpg" alt="motherboard">
-            <img src="./assets/img/gpu.jpg" alt="gpu">
+            <div id="images" class="img-container">
+                <img class="content-img" src="./assets/img/motherboard.jpg" alt="motherboard">
+                <img class="content-img" src="./assets/img/gpu.jpg" alt="gpu">
+            </div>
         </div>
     </main>
     <footer>
         <p>PC Noob &copy; 2023 - Aaron Delate</p>
         <p><a href="site-plan.html">Site Plan</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="./../wwr/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="./../wwr/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="./../wwr/images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
